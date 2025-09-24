@@ -1,0 +1,18 @@
+CREATE TABLE user (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(255) NOT NULL,
+    firstName VARCHAR(255) NOT NULL,
+    lastName VARCHAR(255) NOT NULL,
+    pass VARCHAR(255) NOT NULL,
+    isadmin BOOLEAN NOT NULL
+);
+
+
+CREATE TABLE bookings (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    user VARCHAR(255) NOT NULL,
+    checkIn VARCHAR(255) NOT NULL,
+    checkOut VARCHAR(255) NOT NULL,
+    approved BOOLEAN NOT NULL
+);
+
