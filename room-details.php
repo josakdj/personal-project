@@ -55,7 +55,7 @@
                     </ul>
                 </div>
             </div>
-            <a href="#" class="bk-btn">Booking Now</a>
+            
         </div>
         <nav class="mainmenu mobile-menu">
             <ul>
@@ -107,7 +107,7 @@
                                 <a href="#"><i class="fa fa-tripadvisor"></i></a>
                                 <a href="#"><i class="fa fa-instagram"></i></a>
                             </div>
-                            <a href="#" class="bk-btn">Booking Now</a>
+                            
                             <div class="language-option">
                                 <img src="img/flag.jpg" alt="">
                                 <span>EN <i class="fa fa-angle-down"></i></span>
@@ -199,7 +199,6 @@
                                         <i class="icon_star"></i>
                                         <i class="icon_star-half_alt"></i>
                                     </div>
-                                    <a href="#">Booking Now</a>
                                 </div>
                             </div>
                             <h2>159$<span>/Pernight</span></h2>
@@ -332,7 +331,7 @@
                                     <option value="">1 Room</option>
                                 </select>
                             </div>
-                            <button type="submit">Check Availability</button>
+                            <a href="booking.php"><button type="submit">Book Now</button></a>
                         </form>
                     </div>
                 </div>
